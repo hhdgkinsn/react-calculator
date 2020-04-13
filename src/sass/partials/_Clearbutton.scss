@@ -1,0 +1,10 @@
+.clear-btn {
+    height: $height;
+    @include flex-center(center);
+    flex: 1;
+    font-weight: 300;
+    font-size: $font-size;
+    color: #000;
+    background-color: $clear-color;
+    outline: $outline;
+}
